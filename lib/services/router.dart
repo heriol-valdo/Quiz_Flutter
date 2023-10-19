@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:quiz/screens/home_screen.dart';
 import 'package:quiz/screens/splash_screen.dart';
-
+//ok boss
 class RouterService {
   static GoRouter getRoutes() {
     return GoRouter(
