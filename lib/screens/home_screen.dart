@@ -61,7 +61,8 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(
               height: 20,
             ),
-            Center(child: Text(jsonDataList[conteurdata].question)),
+            Center(child: Text(jsonDataList.isNotEmpty ? jsonDataList[conteurdata].question : "Loading...")),
+
             const SizedBox(
               height: 20,
             ),
